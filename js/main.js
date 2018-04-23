@@ -68,7 +68,8 @@ function onChange_Province() {
 
 	document.querySelector('#cb_distrito').innerHTML = '';
 
-	var departamento = document.getElementById('#cb_departamento option:selected').value;
+	var departamento = document.getElementById('cb_departamento').value;
+	
 	showDistrictsList(departamento, this.value);
 }
 
@@ -83,13 +84,11 @@ function showDistrictsList(departamento, provincia) {
 			option.id = 'dist-' + ubigeo.distrito;
 			option.name = 'distrito';
 			option.value = ubigeo.distrito;
-
 			option.textContent = ubigeo.nombre;
-
-			option.appendChild(option);
 
 			document.querySelector('#cb_distrito').appendChild(option);
 		}
+
 	});
 }
 

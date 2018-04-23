@@ -14,15 +14,21 @@
 		<div class="row">
 
 			<div class="col-lg-4">
-				<select name="cb_departamento" id="cb_departamento" class="form-control"></select>
+				<select name="cb_departamento" id="cb_departamento" class="form-control">
+					<option disabled selected>Seleccione departamento</option>
+				</select>
 			</div>
 
 			<div class="col-lg-4">
-				<select name="cb_provincia" id="cb_provincia" class="form-control"></select>
+				<select name="cb_provincia" id="cb_provincia" class="form-control">
+					<option disabled selected>Seleccione provincia</option>
+				</select>
 			</div>
 			
 			<div class="col-lg-4">
-				<select name="cb_distrito" id="cb_distrito" class="form-control"></select>
+				<select name="cb_distrito" id="cb_distrito" class="form-control">
+					<option disabled selected>Seleccione distrito</option>
+				</select>
 			</div>
 
 		</div>
